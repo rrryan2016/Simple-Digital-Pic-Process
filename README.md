@@ -1,6 +1,10 @@
 # Simple Digital Pic Process
 
-This simple project includes functions as below, you can run each file separatedly. Detailed comments and annotations are in each file. 
+* This simple project includes functions as below, you can run each file separatedly. 
+* Detailed comments and annotations are in each file. 
+* My example picture (exp.jpg) is a rgb picture. You can use your own rgb picture and rename it exp.jpg, then, run the file without any change.
+* Develop Environment: Windows 7 + MATLAB R2014a
+
 
 |Function|File Name|
 |:-:|:-:|
@@ -16,7 +20,10 @@ This simple project includes functions as below, you can run each file separated
 
 
 
-本工程包含以下的功能以及文件，独立的运行每个文件即可达到要求。细节的注释在文件中单列。
+* 工程包含以下的功能以及文件，独立的运行每个文件即可达到要求。
+* 细节的注释在文件中单列。
+* 示例图片命名为exp.jpg，是一个RGB格式的图片。 is a rgb picture. You can use your own rgb picture and rename it exp.jpg, then, run the file without any change.
+* 开发环境： Windows 7 + MATLAB R2014a
 
 |实现功能|文件名|
 |:-:|:-:|
