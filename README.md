@@ -4,14 +4,16 @@ This simple project includes functions as below, you can run each file separated
 
 |Function|File Name|
 |:-:|:-:|
-|Image smoothing|imageSmoothing.m|
-|Image sharpening(Edge Extraction)|imageSharpening.m|
+|Image Smoothing|imageSmoothing.m|
+|Image Sharpening(Edge Extraction)|imageSharpening.m|
 |Median Filtering|medianFiltering.m|
-|Histogram equalization|histEqualization.m|
-|hough transfer(Line Extraction) frequency filtering|houghTransfer.m|
-|Low-Pass Filtering in Frequency Domain(ideal filter & Gaussian filter and )|idealnGaussianLowPassFilter.m|
+|Histogram Equalization|histEqualization.m|
+|Hough Transfer(Line Extraction) |houghTransfer.m|
+|Low-Pass Filtering in Frequency Domain(ideal filter & Gaussian filter )|idealnGaussianLowPassFilter.m|
 |Low-Pass Filtering in Frequency Domain(Butterworth filter)|butterworthLowPassFilter.m|
-|Image motion degradation and restoration|imageDegradationnRestoration.m|
+|Image Motion Degradation and Restoration|imageDegradationnRestoration.m|
+
+
 
 
 本工程包含以下的功能以及文件，独立的运行每个文件即可达到要求。细节的注释在文件中单列。
