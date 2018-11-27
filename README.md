@@ -22,7 +22,7 @@
 
 * 工程包含以下的功能以及文件，独立的运行每个文件即可达到要求。
 * 细节的注释在文件中单列。
-* 示例图片命名为exp.jpg，是一个RGB格式的图片。 is a rgb picture. You can use your own rgb picture and rename it exp.jpg, then, run the file without any change.
+* 示例图片命名为exp.jpg，是一个RGB格式的图片。你可以使用你自己的图片作为处理对象。如果重命名为exp.jpg，程序不作修改就可以继续运行。
 * 开发环境： Windows 7 + MATLAB R2014a
 
 |实现功能|文件名|
