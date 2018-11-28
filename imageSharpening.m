@@ -1,5 +1,3 @@
-main.m
-
 clear all;
 clc;
 % The example is using Sobel or Robert
@@ -9,12 +7,12 @@ sobel_v = [-1 0 1; -2 0 2; -1 0 1];
 % Robert1 = [1 0; 0 -1];
 % Robert2 = Robert1';
 
-image = imread('exp1.jpg');
+image = imread('exp.jpg');
 image = rgb2gray(image);
 myEdge(image,sobel_v,sobel_h);
 
+%% Put the code below into a extra new file, and name it myEdge.m to run the code above. 
 
-myEdge.m
 function [outImage] = myEdge(inImage,inOperator1,inOperator2)
 tempImage = double(inImage)/255;
 t1 = conv2(double(tempImage),double(inOperator1),'same');

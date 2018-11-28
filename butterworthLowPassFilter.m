@@ -1,14 +1,8 @@
 clear all;
 clc;
-% //reference
-% //https://zhidao.baidu.com/question/304857954077518284.html
-% //https://blog.csdn.net/u013165921/article/details/78175781
-% // Do both low pass and gaussian low pass
-% // low pass gaussian
-% gaussianLowPassFilter = fspecial('gaussian',[7 7],0.25);
 
-% Read the original pic, and process it into gray and double
-myPic = imread('myPic.jpg');
+% Read the original pic, and process it into the form of gray and double
+myPic = imread('exp.jpg');
 [height,width,nDims] = size(myPic);
 myPic_gray = rgb2gray(myPic);
 myPic_gray = double(myPic_gray)/255;

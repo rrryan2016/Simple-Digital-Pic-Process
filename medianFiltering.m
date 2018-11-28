@@ -3,10 +3,10 @@ clc;
 
 image = imread('exp.jpg');
 image = rgb2gray(image);
-image_ = imnoise(image,'salt & pepper',0.02);
-figure
-imshow(image_);
-image__ = medfilt2(image_,[3 3]);
+image_ = imnoise(image,'salt & pepper',0.02); % Add salt & pepper noises
+% figure
+% imshow(image_);
+image__ = medfilt2(image_,[3 3]); % do median filtering
 figure
 subplot(1,3,1);
 imshow(image);

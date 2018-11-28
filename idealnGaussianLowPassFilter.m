@@ -1,7 +1,7 @@
 clear all;
 clc;
-myPic = imread('myPic.jpg');
-% myPic = imread('exp.jpg');
+
+myPic = imread('exp.jpg');
 % [height,width] = size(myPic);
 myPic_gray = rgb2gray(myPic);
 % myPic_gray = double(myPic_gray)/255;
@@ -18,7 +18,7 @@ myPic_f = fftshift(fft2(myPic_gray));
 height0 = floor(height/2);
 width0 = floor(width/2);
 
-% ILPF Process
+% Ideal Low Pass Filter (ILPF) Process
 myPic_process_ILPF = myPic_f;
 d_ILPF = 10; % Cut-off
 for i = 1:height

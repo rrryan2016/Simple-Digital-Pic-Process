@@ -10,10 +10,13 @@ sobel_h = sobel_v';
 response_v =  conv2(exp_gray,sobel_v,'valid');
 response_h =  conv2(exp_gray,sobel_h,'valid');
 response =  sqrt(response_h.^2+response_v.^2);
+
 response_min = min(response(:));
 response_max = max(response(:));
 response =  (response-response_min)/response_max;
+
 exp_edge = response>0.25;
+
 subplot(1,4,1);
 imshow(exp_edge);
 title('Edge Pic');
@@ -37,7 +40,7 @@ subplot(1,4,2);
 imshow(H);
 title('Hough Pic');
 
-[theta,r] = find(H ==  max(H(:)),1,'first');
+[theta,r] = find(H ==  max(H(:)),1,'first');% Find the point with most votes, and set the line in the original picture in red(please find the red line after zooming-in with carefulness).
 for i = 1:height
     j =  (r-i*cos((theta-1)*pi/180))/sin((theta-1)*pi/180);
     j = round(j);
